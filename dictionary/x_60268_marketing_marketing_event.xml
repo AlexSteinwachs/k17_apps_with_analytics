@@ -16,5 +16,7 @@
         <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element label="Sponsor" max_length="40" name="sponsor" type="string"/>
         <element label="Start date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Number of attendees expected" max_length="40" name="u_attendees_expected" type="integer"/>
+        <element label="Number of attendees registered" max_length="40" name="u_attendees_registered" type="integer"/>
     </element>
 </database>
